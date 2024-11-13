@@ -67,7 +67,7 @@ microfrontend
 
 ## Уровень 3. Запуск готового кода
 Запуск приложения Mesto:
-- cd frontend/microfrontend/host && npm start:all
+- cd frontend/microfrontend/host && npm install && npm run start:all
 ```
 "start:all": "concurrently \"cd ../auth && npm install && npm start\" \"cd ../photos && npm install && npm start\" \"cd ../profile && npm install && npm start\" \"cd ../host && npm install && npm start\""
 ```
